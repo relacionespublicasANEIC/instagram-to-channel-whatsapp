@@ -9,7 +9,7 @@ async function getLongLivedAccessTokenFromAuthorizationCode(authCode) {
         client_id: INSTAGRAM_CLIENT_ID,
         client_secret: INSTAGRAM_CLIENT_SECRET,
         grant_type: "authorization_code",
-        redirect_uri: `https://${BASE_URL}/api/v1/auth`,
+        redirect_uri: `https://${BASE_URL}/api/auth`,
         code: authCode
     });
 
