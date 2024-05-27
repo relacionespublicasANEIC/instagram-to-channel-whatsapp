@@ -10,6 +10,7 @@
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "@vercel/kv": "^1.0.1"
+        "@vercel/kv": "^1.0.1",
+        "whapi-cloud-client": "github:relacionespublicasANEIC/whapi-cloud-client"
     }
 }
