@@ -1,0 +1,12 @@
+{
+    "crons": [
+        {
+            "path": "/api/revalidateTokens",
+            "schedule": "0 7 * * *"
+        },
+        {
+            "path": "/api/checkUpdates",
+            "schedule": "0 9 * * *"
+        }
+    ]
+}
